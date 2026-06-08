@@ -10,7 +10,8 @@ También se midieron las sustancias psicoactivas legales (legal highs) como la m
 
 Aplica técnicas de Machine Learning No Supervisado (K-Means y Clustering Jerárquico) para identificar perfiles diferenciados de consumidores de drogas a partir de características demográficas, de personalidad y patrones de consumo.
 
-**Dataset:** Drug Consumption Dataset
+**Dataset:** Drug Consumption
+
 **Pregunta:** ¿Existen perfiles diferenciados de consumidores según sus rasgos de personalidad y sus patrones de consumo de sustancias?
 
 ## Estructura del proyecto
@@ -19,8 +20,8 @@ proyecto_clustering/
 │
 ├── data/
 │   └── drug_consumption.xlsx
-│
-├── Proyecto_III_Unal_BDTP.ipynb
+├── notebook/
+│   └── Proyecto_III_Unal_BDTP.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -32,14 +33,14 @@ Sección 3 — Interpretación y visualizaciones
 Sección 4 — Conclusiones
 Sección 5 — Uso de IA
 
-## Cómo correr el proyecto
+## ¿Cómo correr el proyecto?
 
 1. Clonar o descargar el repositorio.
 2. Instalar las dependencias:
    ```bash
    pip install -r requirements.txt
    ```
-3. Asegurarse de que el archivo `drug_consumption.xlsx` esté en su lugar.
+3. Verificación de la base de datos `drug_consumption.xlsx`.
 4. Abrir el notebook:
    ```bash
    jupyter notebook Proyecto_III_Unal_BDTP.ipynb
